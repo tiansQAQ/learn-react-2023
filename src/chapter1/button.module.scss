@@ -1,0 +1,8 @@
+$button-color: green;
+
+.btn {
+  color: $button-color;
+}
+.btn-border {
+  border: 1px solid $button-color;
+}

@@ -21,14 +21,20 @@ module.exports = {
       },
       // 加载 CSS 文件
       {
-        test: /\.css$/,
+        test: /\.s?[ac]ss$/i,
         use: [
+          // 将 JS 字符串生成为 style 节点
           { loader: 'style-loader' },
           {
+            // 将 CSS 转化成 CommonJS 模块
             loader: 'css-loader',
             options: {
               modules: true
             }
+          },
+          {
+            // 将 Sass 编译成 CSS
+            loader: 'sass-loader'
           }
         ]
       }

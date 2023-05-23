@@ -15,3 +15,5 @@ learn react from 0 to 1
 ## 6. npm i html-webpack-plugin --save-dev
 
 ## 7. npm install style-loader css-loader --save-dev
+
+## 8. npm install sass-loader sass --save-dev
