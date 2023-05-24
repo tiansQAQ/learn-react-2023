@@ -7,6 +7,18 @@ import Products from './chapter4/products.jsx'
 import ButtonEvent from './chapter5/ButteonEvent.jsx'
 import ButtonState from './chapter6/ButtonState.jsx'
 import ButtonSharingData from './chapter7/ButtonSharingData.jsx'
+import Pro from './chapter8/Pro.jsx'
+import Card from './chapter9/Card.jsx'
+import Avatar from './chapter8/Avatar.jsx'
+import MyFragment from './chapter10/MyFragment.jsx'
+import Toolbar from './chapter11/Toolbar.jsx'
+import Gallery from './chapter12/Gallery.jsx'
+import Form from './chapter13/Form.jsx'
+import Counter from './chapter14/Counter.jsx'
+import FormObject from './chapter15/FormObject.jsx'
+import BucketList from './chapter16/BucketList.jsx'
+import FormObjectImmer from './chapter17/FormObjectImmer.jsx'
+import BucketListImmer from './chapter18/BucketListImmer.jsx'
 export default function App() {
   // 多个组件共享数据
   const [count, setCount] = useState(0)
@@ -30,6 +42,25 @@ export default function App() {
         <ButtonSharingData count={count} onClick={handleClick} />
         <ButtonSharingData count={count} onClick={handleClick} />
       </div>
+      <Pro />
+      <Card>
+        <Avatar
+          size={100}
+          person={{
+            name: 'Katsuko Saruhashi',
+            imageId: 'YfeOqp2'
+          }}
+        />
+      </Card>
+      <MyFragment />
+      <Toolbar onPlayMovie={() => alert('Playing!')} onUploadImage={() => alert('Uploading')} />
+      <Gallery />
+      <Form />
+      <Counter />
+      <FormObject />
+      <BucketList />
+      <FormObjectImmer />
+      <BucketListImmer />
     </>
   )
 }

@@ -12,6 +12,5 @@ export default function Products() {
       {product.title}
     </li>
   ))
-
   return <ul>{listItems}</ul>
 }

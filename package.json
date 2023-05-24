@@ -19,8 +19,10 @@
   },
   "homepage": "https://github.com/tiansQAQ/learn-react-2023#readme",
   "dependencies": {
+    "immer": "^10.0.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "use-immer": "^0.9.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.5",
