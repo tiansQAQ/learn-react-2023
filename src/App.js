@@ -19,6 +19,8 @@ import FormObject from './chapter15/FormObject.jsx'
 import BucketList from './chapter16/BucketList.jsx'
 import FormObjectImmer from './chapter17/FormObjectImmer.jsx'
 import BucketListImmer from './chapter18/BucketListImmer.jsx'
+import Accordion from './chapter20/Accordion.jsx'
+
 export default function App() {
   // 多个组件共享数据
   const [count, setCount] = useState(0)
@@ -61,6 +63,7 @@ export default function App() {
       <BucketList />
       <FormObjectImmer />
       <BucketListImmer />
+      <Accordion />
     </>
   )
 }
