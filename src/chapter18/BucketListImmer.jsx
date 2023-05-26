@@ -6,14 +6,13 @@ const initialList = [
   { id: 1, title: 'Lunar Landscape', seen: false },
   { id: 2, title: 'Terracotta Army', seen: true }
 ]
-
-// 数组是另一种可以存在状态中的可变 JavaScript 对象，应将其视为只读。就像对象一样，当你想更新存在状态中的数组时，你需要创建一个新数组（或者复制现有数组），然后用新数组来更新状态。
+// 使用 Immer,useImmer 库来减少重复代码
 export default function BucketListImmer() {
   const [list, setList] = useImmer(initialList)
 
   function onToggle(item, e) {
     setList((draft) => {
-      const artwork = draft.find((el) => el.id === item.id)
+      const artwork = draft.find((el) => el.id === item.id) || {}
       artwork.seen = e.target.checked
     })
   }
