@@ -1,0 +1,9 @@
+.counter {
+  border: 1px solid #ccc;
+}
+.hover {
+  background-color: red;
+}
+.fancy {
+  border: 10px solid rebeccapurple;
+}

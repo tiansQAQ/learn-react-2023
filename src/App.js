@@ -20,6 +20,17 @@ import BucketList from './chapter16/BucketList.jsx'
 import FormObjectImmer from './chapter17/FormObjectImmer.jsx'
 import BucketListImmer from './chapter18/BucketListImmer.jsx'
 import Accordion from './chapter20/Accordion.jsx'
+import Counter1 from './chapter21/Counter1.jsx'
+import Counter2 from './chapter21/Counter2.jsx'
+import Counter3 from './chapter21/Counter3.jsx'
+import Counter4 from './chapter21/Counter4.jsx'
+import Counter5 from './chapter21/Counter5.jsx'
+import Counter6 from './chapter21/Counter6.jsx'
+import Counter7 from './chapter21/Counter7.jsx'
+import Counter8 from './chapter21/Counter8.jsx'
+import Counter9 from './chapter21/Counter9.jsx'
+import Counter10 from './chapter21/Counter10.jsx'
+import Messenger from './chapter22/Messenger.jsx'
 
 export default function App() {
   // 多个组件共享数据
@@ -64,6 +75,38 @@ export default function App() {
       <FormObjectImmer />
       <BucketListImmer />
       <Accordion />
+      <div>
+        <Counter1 />
+        <Counter1 />
+      </div>
+      <div>
+        <Counter2 />
+      </div>
+      <div>
+        <Counter3 />
+      </div>
+      <div>
+        <Counter4 />
+      </div>
+      <div>
+        <Counter5 />
+      </div>
+      <div>
+        <Counter6 />
+      </div>
+      <div>
+        <Counter7 />
+      </div>
+      <div>
+        <Counter8 />
+      </div>
+      <div>
+        <Counter9 />
+      </div>
+      <div>
+        <Counter10 />
+      </div>
+      <Messenger />
     </>
   )
 }
