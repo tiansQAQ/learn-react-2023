@@ -34,7 +34,10 @@ import Messenger from './chapter22/Messenger.jsx'
 import TaskApp from './chapter23/TaskApp.jsx'
 import TaskApp2 from './chapter23/TaskApp2.jsx'
 import TaskApp3 from './chapter23/TaskApp3.jsx'
-
+import Page from './chapter24/Page.jsx'
+import Page1 from './chapter24/Page1.jsx'
+import Page2 from './chapter24/Page1.jsx'
+import ProfilePage from './chapter25/ProfilePage.jsx'
 export default function App() {
   // 多个组件共享数据
   const [count, setCount] = useState(0)
@@ -113,6 +116,10 @@ export default function App() {
       <TaskApp />
       <TaskApp2 />
       <TaskApp3 />
+      <Page />
+      <Page1 />
+      <Page2 />
+      <ProfilePage />
     </>
   )
 }

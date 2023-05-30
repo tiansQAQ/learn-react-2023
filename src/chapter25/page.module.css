@@ -1,0 +1,9 @@
+.section {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+.fancy {
+  border: 4px dashed pink;
+}
