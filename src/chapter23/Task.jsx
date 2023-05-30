@@ -4,7 +4,7 @@ export default function Task({ task, onChange, onDelete }) {
 
   return (
     <label>
-      <input type="checkbox" checked={task.down} onChange={(e) => onChange({ ...task, done: e.target.checked })} />
+      <input type="checkbox" checked={task.done} onChange={(e) => onChange({ ...task, done: e.target.checked })} />
       {isEditing ? (
         <>
           <input type="text" value={task.text} onChange={(e) => onChange({ ...task, text: e.target.value })} />

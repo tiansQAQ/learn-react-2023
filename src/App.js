@@ -38,6 +38,7 @@ import Page from './chapter24/Page.jsx'
 import Page1 from './chapter24/Page1.jsx'
 import Page2 from './chapter24/Page1.jsx'
 import ProfilePage from './chapter25/ProfilePage.jsx'
+import MyTaskApp from './chapter26/TaskApp.jsx'
 export default function App() {
   // 多个组件共享数据
   const [count, setCount] = useState(0)
@@ -120,6 +121,7 @@ export default function App() {
       <Page1 />
       <Page2 />
       <ProfilePage />
+      <MyTaskApp />
     </>
   )
 }
