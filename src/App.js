@@ -31,6 +31,9 @@ import Counter8 from './chapter21/Counter8.jsx'
 import Counter9 from './chapter21/Counter9.jsx'
 import Counter10 from './chapter21/Counter10.jsx'
 import Messenger from './chapter22/Messenger.jsx'
+import TaskApp from './chapter23/TaskApp.jsx'
+import TaskApp2 from './chapter23/TaskApp2.jsx'
+import TaskApp3 from './chapter23/TaskApp3.jsx'
 
 export default function App() {
   // 多个组件共享数据
@@ -107,6 +110,9 @@ export default function App() {
         <Counter10 />
       </div>
       <Messenger />
+      <TaskApp />
+      <TaskApp2 />
+      <TaskApp3 />
     </>
   )
 }
