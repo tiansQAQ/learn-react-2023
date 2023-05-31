@@ -39,6 +39,15 @@ import Page1 from './chapter24/Page1.jsx'
 import Page2 from './chapter24/Page1.jsx'
 import ProfilePage from './chapter25/ProfilePage.jsx'
 import MyTaskApp from './chapter26/TaskApp.jsx'
+import CounterRef from './chapter27/CounterRef.jsx'
+import Stopwatch from './chapter27/Stopwatch.jsx'
+import FormRef from './chapter27/FormRef.jsx'
+import CatFriends from './chapter27/CatFriends.jsx'
+import CatFriends1 from './chapter27/CatFriends1.jsx'
+import MyInputForm from './chapter27/MyInputForm.jsx'
+import MyInputForm1 from './chapter27/MyInputForm1.jsx'
+import TodoList from './chapter27/TodoList.jsx'
+
 export default function App() {
   // 多个组件共享数据
   const [count, setCount] = useState(0)
@@ -122,6 +131,14 @@ export default function App() {
       <Page2 />
       <ProfilePage />
       <MyTaskApp />
+      <CounterRef />
+      <Stopwatch />
+      <FormRef />
+      <CatFriends />
+      <CatFriends1 />
+      <MyInputForm />
+      <MyInputForm1 />
+      <TodoList />
     </>
   )
 }
