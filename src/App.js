@@ -47,6 +47,11 @@ import CatFriends1 from './chapter27/CatFriends1.jsx'
 import MyInputForm from './chapter27/MyInputForm.jsx'
 import MyInputForm1 from './chapter27/MyInputForm1.jsx'
 import TodoList from './chapter27/TodoList.jsx'
+import VideoPlayerWrapper from './chapter28/VideoPlayerWrapper.jsx'
+import VideoPlayerWrapper1 from './chapter28/VideoPlayerWrapper1.jsx'
+import VideoPlayerWrapper2 from './chapter28/VideoPlayerWrapper2.jsx'
+import ChatRoom from './chapter28/ChatRoom.jsx'
+import PlaygroundWrapper from './chapter28/PlaygroundWrapper.jsx'
 
 export default function App() {
   // 多个组件共享数据
@@ -139,6 +144,11 @@ export default function App() {
       <MyInputForm />
       <MyInputForm1 />
       <TodoList />
+      <VideoPlayerWrapper />
+      <VideoPlayerWrapper1 />
+      <VideoPlayerWrapper2 />
+      <ChatRoom />
+      <PlaygroundWrapper />
     </>
   )
 }
