@@ -46,7 +46,9 @@ module.exports = {
   resolve: {
     // 别名
     alias: {
-      '@': path.join(__dirname, 'src')
-    }
+      '@': path.resolve(__dirname, 'src')
+    },
+    // 尝试按顺序解析这些后缀名,能够使用户在引入模块时不带扩展
+    extensions: ['.js', '.jsx', '.tsx']
   }
 }

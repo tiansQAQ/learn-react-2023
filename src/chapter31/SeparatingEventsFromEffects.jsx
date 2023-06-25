@@ -275,7 +275,7 @@ import { createConnection, sendMessage } from './chat.js';
 import { showNotification } from './notifications.js';
 
 const serverUrl4 = 'https://localhost:1234';
-
+ 
 function ChatRoom({ roomId, theme }) {
   useEffect(() => {
     const connection = createConnection(serverUrl4, roomId);
@@ -459,4 +459,3 @@ export default function App() {
 
 // 您可以将effect事件视为与事件处理程序非常相似。主要区别在于事件处理程序运行以响应用户交互，而effect事件由您从effect触发。
 // effct事件允许您在effect的reactive和不应是reactive的代码之间“打破链条”。
-
